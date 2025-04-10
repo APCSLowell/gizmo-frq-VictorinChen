@@ -29,8 +29,8 @@ public class OnlinePurchaseManager
       return false;
     }
     for(int i =1; i<purchases.size();i++){
-      if(isElectronic(i)&&isElectronic(i-1){
-        if(getMaker(i).equals(getMaker(i-1)){
+      if(isElectronic(i)&&isElectronic(i-1)){
+        if(getMaker(i).equals(getMaker(i-1))){
           return true;
         }
       }
