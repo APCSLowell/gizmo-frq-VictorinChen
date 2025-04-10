@@ -30,7 +30,7 @@ public class OnlinePurchaseManager
     }
     for(int i =1; i<purchases.size();i++){
       if(isElectronic(i)&&isElectronic(i-1){
-        if(getMaker(i).equalys(getMaker(i-1)){
+        if(getMaker(i).equals(getMaker(i-1)){
           return true;
         }
       }
